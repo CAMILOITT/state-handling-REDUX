@@ -1,0 +1,14 @@
+.formSing {
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+  gap: 10px;
+}
+.formSing__messageError{
+  color: red;
+  font-weight: bold;
+}
+.formSing__input {
+  padding: 5px 10px;
+  outline: none;
+}

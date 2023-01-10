@@ -1,0 +1,37 @@
+.listTask {
+  height: 55vh;
+  list-style: none;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+  overflow-y: scroll;
+}
+.listTask::-webkit-scrollbar {
+  display: none;
+}
+.listTask__task {
+  display: grid;
+  grid-template-columns: auto repeat(2, 50px);
+  margin: 0;
+  gap: 10px;
+}
+.task__info {
+  text-align: left;
+  padding: 0 10px;
+  text-transform: capitalize;
+  outline: none;
+}
+.task__info:focus{
+  border-bottom: 1px solid greenyellow;
+}
+.task__btn {
+  font-weight: bold;
+}
+.task__btn-delete {
+  background: red;
+}
+.task__btn-modify {
+  background: orange;
+}

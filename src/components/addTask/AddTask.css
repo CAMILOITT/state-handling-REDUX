@@ -1,0 +1,9 @@
+
+.AddTask{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}.AddTask__input{
+  padding: 5px 10px;
+  outline: none;
+}
